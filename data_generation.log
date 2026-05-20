@@ -1,0 +1,47 @@
+2026-05-19 23:03:14,548 - INFO -  Conexión exitosa a PostgreSQL
+2026-05-19 23:03:14,549 - INFO - Generando 200 vehículos...
+2026-05-19 23:03:14,592 - INFO -  200 vehículos insertados
+2026-05-19 23:03:14,592 - INFO - Generando 400 conductores...
+2026-05-19 23:03:14,715 - INFO -  400 conductores insertados
+2026-05-19 23:03:14,716 - INFO - Generando 50 rutas...
+2026-05-19 23:03:14,724 - INFO -  50 rutas insertadas
+2026-05-19 23:03:14,724 - INFO - Generando 100000 viajes...
+2026-05-19 23:03:24,005 - INFO -   Progreso: 0/100000 trips insertados
+2026-05-19 23:03:25,768 - INFO -   Progreso: 10000/100000 trips insertados
+2026-05-19 23:03:27,502 - INFO -   Progreso: 20000/100000 trips insertados
+2026-05-19 23:03:29,240 - INFO -   Progreso: 30000/100000 trips insertados
+2026-05-19 23:03:30,599 - INFO -   Progreso: 40000/100000 trips insertados
+2026-05-19 23:03:31,966 - INFO -   Progreso: 50000/100000 trips insertados
+2026-05-19 23:03:33,338 - INFO -   Progreso: 60000/100000 trips insertados
+2026-05-19 23:03:34,684 - INFO -   Progreso: 70000/100000 trips insertados
+2026-05-19 23:03:36,023 - INFO -   Progreso: 80000/100000 trips insertados
+2026-05-19 23:03:37,349 - INFO -   Progreso: 90000/100000 trips insertados
+2026-05-19 23:03:38,577 - INFO -  100000 viajes insertados
+2026-05-19 23:03:38,590 - INFO - Generando exactamente 400000 entregas...
+2026-05-19 23:06:28,628 - INFO - Generación exacta de 400000 entregas completada.
+2026-05-19 23:06:28,773 - INFO - Generando exactamente 5000 registros de mantenimiento...
+2026-05-19 23:06:30,131 - INFO - Generación exacta de 5000 mantenimientos completada.
+2026-05-19 23:06:30,134 - INFO - 
+ RESUMEN DE GENERACIÓN DE DATOS
+2026-05-19 23:06:30,134 - INFO - ==================================================
+2026-05-19 23:06:30,135 - INFO -   vehicles: 200 registros
+2026-05-19 23:06:30,137 - INFO -   drivers: 400 registros
+2026-05-19 23:06:30,137 - INFO -   routes: 50 registros
+2026-05-19 23:06:30,150 - INFO -   trips: 100,000 registros
+2026-05-19 23:06:30,206 - INFO -   deliveries: 400,000 registros
+2026-05-19 23:06:30,208 - INFO -   maintenance: 5,000 registros
+2026-05-19 23:06:30,208 - INFO - 
+  TOTAL: 505,650 registros
+2026-05-19 23:06:30,453 - INFO - 
+  Entregas por viaje: AVG=4.0, MIN=1, MAX=6
+2026-05-19 23:06:30,453 - INFO - 
+ VALIDANDO CALIDAD DE DATOS...
+2026-05-19 23:06:30,470 - INFO -    Integridad referencial - Trips sin vehículo válido: OK
+2026-05-19 23:06:30,562 - INFO -    Integridad referencial - Deliveries sin trip válido: OK
+2026-05-19 23:06:30,575 - INFO -    Consistencia temporal - Trips con arrival < departure: OK
+2026-05-19 23:06:30,634 - INFO -    Consistencia de peso - Trips excediendo capacidad: OK
+2026-05-19 23:06:30,802 - INFO -    Entregas sin tracking number: OK
+2026-05-19 23:06:30,803 - INFO - 
+ Resumen guardado en generation_summary.json
+2026-05-19 23:06:30,803 - INFO - 
+ Conexión cerrada
